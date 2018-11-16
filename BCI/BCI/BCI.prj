@@ -1,0 +1,19 @@
+toute ligne ne debutant pas par un caractere # est ignoree
+********************************************************************
+fichier de sauvegarde du projet : BCI
+Date :vendredi 16 novembre 2018 à 01:34:03
+********************************************************************
+
+Peut etre edite quand le projet n'est pas ouvert dans SEDMA,
+Il est vivement deconseille de modifier ce fichier ! 
+
+#MAQUETTE Bci
+#NIVEAUVERIFES Stricte
+#NAME BCI
+#TYPE Automata
+#ENTREES  init  bouchon  assemblage  c1  c2  c3  c4  c5  c6  c7  c8  bouteille 
+#SORTIES  ADMIS  A1  A2  A3  A4  A5  EJECT 
+#Procedes procédes  procédes1 
+#Objectifs  
+#Commandes  
+Fin du fichier de description du projet
