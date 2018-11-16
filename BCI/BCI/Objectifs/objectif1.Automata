@@ -1,7 +1,7 @@
 toute ligne ne debutant pas par un caractere # est ignoree
 *******************************************************
 fichier de sauvegarde du fichier automate : objectif1
-Date : vendredi 16 novembre 2018 à 09:21:15
+Date : vendredi 16 novembre 2018 à 11:22:35
 ********************************************************
 
 Peut être edite quand le graphe automate n'est pas ouvert dans SEDMA,
@@ -15,18 +15,15 @@ debut de la description de l'automate
 
 <s> <int x> <int y> <nom (index)> <ancre> <{attribut}> <ancre> <initial> <final> <couleur> <nom>
 
-#s 78 307 0 c {} s true false #000000 E0
-#s 245 308 1 c {} s false false #000000 E1
-#s 318 228 2 c {} s false false #000000 E2
-#s 401 466 3 c {} s false false #000000 E3
-#s 213 459 4 c {} s false false #000000 E4
-#s 189 55 5 c {} s false false #000000 E5
+#s 92 340 0 c {} s true false #000000 E0
+#s 448 337 1 c {} s false false #000000 E1
+#s 312 169 2 c {} s false false #000000 E5
+#s 230 62 3 c {} s false false #000000 E2
+#s 86 62 4 c {} s false false #000000 E4
 #e 0 1 {assemblage} n #000000 E0 E1
-#e 1 2 {ADMIS} n #000000 E1 E2
-#e 0 3 {bouteille} n #000000 E0 E3
-#e 2 0 {} n #000000 E2 E0
-#e 3 4 {EJECT} n #000000 E3 E4
-#e 4 0 {} n #000000 E4 E0
-#e 0 5 {bouchon} n #000000 E0 E5
-#e 5 0 {EJECT} n #000000 E5 E0
+#e 1 0 {!c6} n #000000 E1 E0
+#e 2 3 {A3} n #000000 E5 E2
+#e 3 4 {!c6} n #000000 E2 E4
+#e 4 0 {!A3} n #000000 E4 E0
+#e 0 2 {bouchon+bouteille} n #000000 E0 E5
 Fin du fichier de description de l'automate

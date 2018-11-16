@@ -1,7 +1,7 @@
 toute ligne ne debutant pas par un caractere # est ignoree
 *******************************************************
 fichier de sauvegarde du fichier automate : procede
-Date : vendredi 16 novembre 2018 à 09:21:15
+Date : vendredi 16 novembre 2018 à 11:22:35
 ********************************************************
 
 Peut être edite quand le graphe automate n'est pas ouvert dans SEDMA,
@@ -15,86 +15,80 @@ debut de la description de l'automate
 
 <s> <int x> <int y> <nom (index)> <ancre> <{attribut}> <ancre> <initial> <final> <couleur> <nom>
 
-#s 15 237 0 c {} s true false #000000 E0
-#s 820 9 1 c {} s false false #000000 E32
-#s 84 238 2 c {} s false false #000000 E1
-#s 158 237 3 c {} s false false #000000 E2
-#s 223 239 4 c {} s false false #000000 E3
-#s 284 239 5 c {} s false false #000000 E4
-#s 529 108 6 c {} s false false #000000 E6
-#s 697 77 7 c {} s false false #000000 E7
-#s 903 76 8 c {} s false false #000000 E8
-#s 733 269 9 c {} s false false #000000 E11
-#s 867 275 10 c {} s false false #000000 E12
-#s 714 365 11 c {} s false false #000000 E15
-#s 867 369 12 c {} s false false #000000 E16
-#s 691 167 13 c {} s false false #000000 E19
-#s 884 172 14 c {} s false false #000000 E20
-#s 110 340 15 c {} s false false #000000 E22
-#s 175 400 16 c {} s false false #000000 E23
-#s 235 472 17 c {} s false false #000000 E24
-#s 295 533 18 c {} s false false #000000 E25
-#s 386 593 19 c {} s false false #000000 E26
-#s 513 643 20 c {} s false false #000000 E27
-#s 420 181 21 c {} s false false #000000 E21
-#s 545 297 22 c {} s false false #000000 E28
-#s 424 297 23 c {} s false false #000000 E5
-#s 454 400 24 c {} s false false #000000 E9
-#s 494 776 25 c {} s false false #000000 E10
-#s 577 468 26 c {} s false false #000000 E13
-#s 732 533 27 c {} s false false #000000 E14
-#s 851 587 28 c {} s false false #000000 E17
-#s 1088 251 29 c {} s false false #000000 E18
-#s 1255 254 30 c {} s false false #000000 E29
-#s 1428 256 31 c {} s false false #000000 E30
-#s 1356 601 32 c {} s false false #000000 E31
-#s 802 765 33 c {} s false false #000000 E33
-#s 746 628 34 c {} s false false #000000 E34
-#s 335 961 35 c {} s false false #000000 E35
-#s 349 836 36 c {} s false false #000000 E36
-#e 1 0 {} n #000000 E32 E0
-#e 2 3 {!c7} n #000000 E1 E2
-#e 3 4 {c4} n #000000 E2 E3
-#e 4 5 {!c4} n #000000 E3 E4
-#e 6 7 {!c8} n #000000 E6 E7
-#e 7 8 {!c5} n #000000 E7 E8
-#e 9 10 {!c5} n #000000 E11 E12
-#e 11 12 {!c8} n #000000 E15 E16
-#e 13 14 {!c8} n #000000 E19 E20
-#e 15 16 {!c4} n #000000 E22 E23
-#e 16 17 {c5} n #000000 E23 E24
-#e 17 18 {!c5} n #000000 E24 E25
-#e 18 19 {c6} n #000000 E25 E26
-#e 19 20 {!c6} n #000000 E26 E27
-#e 5 21 {c8} n #000000 E4 E21
-#e 21 6 {c5} n #000000 E21 E6
-#e 6 13 {!c5} n #000000 E6 E19
-#e 22 9 {!c8} n #000000 E28 E11
-#e 22 11 {!c5} n #000000 E28 E15
-#e 5 23 {c5} n #000000 E4 E5
-#e 23 22 {c8} n #000000 E5 E28
-#e 23 24 {!c5} n #000000 E5 E9
-#e 20 25 {bouchon} n #000000 E27 E10
-#e 24 26 {c6} n #000000 E9 E13
-#e 26 27 {!c6} n #000000 E13 E14
-#e 27 28 {bouteille} n #000000 E14 E17
-#e 8 29 {c6} n #000000 E8 E18
-#e 14 29 {c6} n #000000 E20 E18
-#e 10 29 {c6} n #000000 E12 E18
-#e 12 29 {c6} n #000000 E16 E18
-#e 29 30 {!c6} n #000000 E18 E29
-#e 30 31 {assemblage} n #000000 E29 E30
-#e 31 32 {ADMIS} n #000000 E30 E31
-#e 28 33 {ADMIS} n #000000 E17 E33
-#e 28 34 {EJECT} n #000000 E17 E34
-#e 25 35 {ADMIS} n #000000 E10 E35
-#e 25 36 {EJECT} n #000000 E10 E36
-#e 0 2 {c7} n #000000 E0 E1
-#e 0 15 {c4} n #000000 E0 E22
-#e 31 1 {EJECT} n #000000 E30 E32
-#e 36 0 {} n #000000 E36 E0
-#e 35 0 {} n #000000 E35 E0
-#e 32 0 {} n #000000 E31 E0
-#e 34 0 {} n #000000 E34 E0
-#e 33 0 {} n #000000 E33 E0
+#s 55 287 0 c {} s true false #000000 E0
+#s 124 288 1 c {} s false false #000000 E1
+#s 198 287 2 c {} s false false #000000 E2
+#s 263 289 3 c {} s false false #000000 E3
+#s 324 289 4 c {} s false false #000000 E4
+#s 569 158 5 c {} s false false #000000 E6
+#s 737 127 6 c {} s false false #000000 E7
+#s 943 126 7 c {} s false false #000000 E8
+#s 773 319 8 c {} s false false #000000 E11
+#s 907 325 9 c {} s false false #000000 E12
+#s 754 415 10 c {} s false false #000000 E15
+#s 907 419 11 c {} s false false #000000 E16
+#s 731 217 12 c {} s false false #000000 E19
+#s 924 222 13 c {} s false false #000000 E20
+#s 149 394 14 c {} s false false #000000 E22
+#s 221 462 15 c {} s false false #000000 E23
+#s 292 520 16 c {} s false false #000000 E24
+#s 341 598 17 c {} s false false #000000 E25
+#s 369 701 18 c {} s false false #000000 E26
+#s 460 231 19 c {} s false false #000000 E21
+#s 585 347 20 c {} s false false #000000 E28
+#s 464 347 21 c {} s false false #000000 E5
+#s 632 483 22 c {} s false false #000000 E9
+#s 341 801 23 c {} s false false #000000 E10
+#s 782 553 24 c {} s false false #000000 E14
+#s 925 682 25 c {} s false false #000000 E17
+#s 1298 440 26 c {} s false false #000000 E18
+#s 1508 692 27 c {} s false false #000000 E30
+#s 1425 115 28 c {} s false false #000000 E29
+#s 667 60 29 c {} s false false #000000 E32
+#s 1032 720 30 c {} s false false #000000 E31
+#s 970 846 31 c {} s false false #000000 E33
+#s 453 860 32 c {} s false false #000000 E13
+#s 162 958 33 c {} s false false #000000 E27
+#e 1 2 {!c7} n #000000 E1 E2
+#e 2 3 {c4} n #000000 E2 E3
+#e 3 4 {!c4} n #000000 E3 E4
+#e 5 6 {!c8} n #000000 E6 E7
+#e 6 7 {!c5} n #000000 E7 E8
+#e 8 9 {!c5} n #000000 E11 E12
+#e 10 11 {!c8} n #000000 E15 E16
+#e 12 13 {!c8} n #000000 E19 E20
+#e 14 15 {!c4} n #000000 E22 E23
+#e 15 16 {c5} n #000000 E23 E24
+#e 16 17 {!c5} n #000000 E24 E25
+#e 17 18 {c6} n #000000 E25 E26
+#e 4 19 {c8} n #000000 E4 E21
+#e 19 5 {c5} n #000000 E21 E6
+#e 5 12 {!c5} n #000000 E6 E19
+#e 20 8 {!c8} n #000000 E28 E11
+#e 20 10 {!c5} n #000000 E28 E15
+#e 4 21 {c5} n #000000 E4 E5
+#e 21 20 {c8} n #000000 E5 E28
+#e 21 22 {!c5} n #000000 E5 E9
+#e 24 25 {bouteille} n #000000 E14 E17
+#e 7 26 {c6} n #000000 E8 E18
+#e 13 26 {c6} n #000000 E20 E18
+#e 9 26 {c6} n #000000 E12 E18
+#e 11 26 {c6} n #000000 E16 E18
+#e 0 1 {c7} n #000000 E0 E1
+#e 0 14 {c4} n #000000 E0 E22
+#e 26 27 {assemblage} n #000000 E18 E30
+#e 27 28 {A3} n #000000 E30 E29
+#e 28 29 {!c6} n #000000 E29 E32
+#e 29 0 {!A3} n #000000 E32 E0
+#e 25 0 {!c6} n #000000 E17 E0
+#e 27 0 {!c6} n #000000 E30 E0
+#e 25 30 {A3} n #000000 E17 E31
+#e 30 31 {!c6} n #000000 E31 E33
+#e 31 0 {!A3} n #000000 E33 E0
+#e 22 24 {c6} n #000000 E9 E14
+#e 18 23 {bouchon} n #000000 E26 E10
+#e 23 0 {!c6} n #000000 E10 E0
+#e 23 32 {A3} n #000000 E10 E13
+#e 32 33 {!c6} n #000000 E13 E27
+#e 33 0 {!A3} n #000000 E27 E0
 Fin du fichier de description de l'automate
